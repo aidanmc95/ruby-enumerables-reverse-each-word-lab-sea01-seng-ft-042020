@@ -1,5 +1,3 @@
-reverse_each_word("hi")
-
 def reverse_each_word(words)
   array = words.split(" ")
   reverse = ""
@@ -12,3 +10,5 @@ def reverse_each_word(words)
   end
   return reverse
 end
+
+reverse_each_word("hi")
