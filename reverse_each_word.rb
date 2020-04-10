@@ -2,8 +2,9 @@ def reverse_each_word(words)
   array = words.split(" ")
   reverse = ""
   array = array.collect {|word| word.reverse}
+  
     if reverse != ""
-      reverse = reverse + " " + word.reverse
+      reverse = reverse + " " + word
     else
       reverse = word.reverse
     end
