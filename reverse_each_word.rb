@@ -11,4 +11,4 @@ def reverse_each_word(words)
   return reverse
 end
 
-reverse_each_word("hi")
+puts reverse_each_word("hi")
